@@ -269,40 +269,63 @@
 
     </section>
     <footer>
-        <div class="format bg-img  flex flex-col">
-          <div class="flex flex-col justify-center items-center">
-            <button class="btn btn-xs">Tiny<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-            </button>
-            <h1 class="text-5xl font-extrabold">Let's Discover Next project</h1>
-            <p>The barn house captivates with its blend of rustic charm and modern 
-              sophistication, featuring weathered wood, sleek metal accents.
-            </p>
-          </div>
-          <div class="flex flex-row justify-center items-center">
-            <div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+        <div class="format bg-img bg-no-repeat hidden md:block">
+          <div class=" mx-auto px-16 grid grid-rows-4">
+            <div class="flex flex-col justify-center items-center text-center py-10 gap-10">
+              <button class="btn btn-xs font-bold text-xl rounded-full px-4 pt-2 pb-10  bg-[#ABEF5F33]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>Let's Connect
+              </button>
+              <h1 class="text-3xl md:text-5xl font-bold">Let's Discover Next project</h1>
+              <p class="text-lg text-gray-500">The barn house captivates with its blend of rustic charm and modern 
+                sophistication,
+                <br> featuring weathered wood, sleek metal accents.
+              </p>
             </div>
-            <div>
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-              <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <div class="grid grid-cols-2 justify-center  text-center items-center px-0">
+              <div class="flex flex-col  gap-5  justify-center text-center  items-center rounded-xl">
+                <input type="text" placeholder="First Name*" class="input input-bordered  border-none rounded-xl w-full max-w-44 md:max-w-lg" />
+                <input  type="text" placeholder="Phone Number*" class="input input-bordered border-none rounded-xl w-full max-w-44 md:max-w-lg" />
+              </div>
+              <div class="flex flex-col gap-5  rounded-xl justify-center text-center items-center border-none">
+                <input type="text" placeholder="Last Name*" class="input input-bordered border-none rounded-xl w-full max-w-44 md:max-w-lg" />
+                <input type="text" placeholder="E-mail*" class="input input-bordered border-none rounded-xl w-full max-w-44 md:max-w-lg" />
+              </div>
             </div>
-          </div>
-          <div>
-            <textarea
-                      placeholder="Bio"
-                      class="textarea textarea-bordered textarea-lg w-full text-center  max-w-xs">
-            </textarea>
-          </div>
-          <div class="text-center">
-            <button class="btn btn-block ">Wide</button>Tiny<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 max-w-500px">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-            </svg>
-            </button>
+            <div class="mx-auto text-center justify-center item-center">
+              <textarea
+                        placeholder=""
+                        class="textarea  border-none textarea-bordered textarea-4xl w-full text-center rounded-xl max-w-3xl" rows="10xl" cols="70xl">
+              </textarea>
+            </div>
+            <div class="text-center">
+              <button class="btn px-96 rounded-full bg-[#ABEF5F]">Send Mail<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-5 rounded-full bg-footer-bg-clr  font-bold">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              </button>
+            </div>
           </div>
         </div>
+        <div class="block md:hidden bg-img format mt-10 my-5">
+          <div cl="py-5">
+            <input type="text" placeholder="First Name*" class="input input-bordered border-none rounded-xl w-1/2 max-w-44 md:max-w-36 py-5" />
+            <input type="text" placeholder="Last Name*" class="input input-bordered border-none rounded-xl w-1/2 max-w-44 md:max-w-36 py-5" />
+          </div>
+          <div class="py-5">
+
+            <input type="text" placeholder="phone no*" class="input input-bordered border-none rounded-xl w-1/2 max-w-44 py-5 " />
+            <input type="text" placeholder="e-mail*" class="input input-bordered border-none rounded-xl w-1/2 max-w-44 py-5 " />
+          </div>
+          </div>
+          <div class=" block format bg-img md:hidden by-10">
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-lg w-full  border-none max-w-sm px-10 py-10" />
+          </div>
+        </div>
+            
+
         <div class="contact">
 
         </div>
